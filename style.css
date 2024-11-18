@@ -178,13 +178,13 @@ header {
 .feature-desc {
   flex-direction: column;
   align-items: start;
-  align-content: center;
+  align-content: center;
 }
-.example-area{
+.example-area {
   justify-content: space-between;
   margin-block: 30px;
 }
-.example-card{
+.example-card {
   flex-direction: column;
   width: 23%;
   background-color: black;
@@ -194,39 +194,59 @@ header {
   padding: 25px;
   transition: 0.2s ease-out;
 }
-.example-card:hover{
+.example-card:hover {
   box-shadow: 0 0 10px #888;
 }
-.example-card:nth-child(1){
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./assets/asset\ 37.jpeg) ;
+.example-card:nth-child(1) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 36.jpeg);
   background-size: cover;
 }
-.example-card:nth-child(2){
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./assets/asset\ 36.jpeg) ;
+.example-card:nth-child(2) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 37.jpeg);
   background-size: cover;
 }
-.example-card:nth-child(3){
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./assets/asset\ 38.jpeg) ;
+.example-card:nth-child(3) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 38.jpeg);
   background-size: cover;
 }
-.example-card:nth-child(4){
-  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)) , url(./assets/asset\ 39.jpeg) ;
+.example-card:nth-child(4) {
+  background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(0, 0, 0, 0.8)),
+    url(./assets/asset\ 39.jpeg);
   background-size: cover;
 }
-.cta-section{
+.cta-section {
   background-color: #183b54;
-  padding: 120px var(--padding-inline-section);
+  padding: 120px var(--padding-inline-section) 80px;
 }
-.cta-container{
+.cta-container {
   flex-direction: column;
   align-items: center;
   color: white;
   gap: 30px;
 }
-.cta-container p{
+.cta-container p {
   color: white;
   margin-top: 30px;
 }
-.spacer{
-  min-height: 50vh;
+footer{
+  padding-block: 80px;
+  background-color: #ebf2fa;
+  align-items:start ;
+  justify-content: space-between;
+}
+.link-column{
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.footer-container{
+  align-items: start;
+  justify-content: space-between;
+}
+
+.spacer {
+  min-height: 50vh;
 }
