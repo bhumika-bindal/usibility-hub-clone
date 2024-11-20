@@ -250,3 +250,12 @@ footer{
 .spacer {
   min-height: 50vh;
 }
+.subfooter{
+  background-color: #b9cde4;
+}
+.subfooter-container{
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: var(--padding-inline-section);
+}
