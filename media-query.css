@@ -4,6 +4,9 @@
 .toggle-btn{
     display: none;
 }
+.example-card{
+    height: 300px;
+}
 
 @media screen and (max-width:991px) {
     .toggle-btn{
@@ -13,5 +16,12 @@
     .nav-links{
         display: none;
     }
+    .example-area{
+        flex-wrap: wrap;
+        gap:10px;
+    }
+    .example-card{
+        width: calc(50% - 10px);
+        height: 180px;
+    }
 }
-
